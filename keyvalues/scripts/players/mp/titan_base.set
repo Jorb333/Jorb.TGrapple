@@ -1,0 +1,25 @@
+"titan_base"
+{
+	"global"
+	{
+		grapple_detachLengthMin				267 //default 60
+		grapple_detachLengthMax				267 //default 100
+		grapple_detachAwaySpeed				500
+		grapple_gravityFracMin				1
+		grapple_gravityFracMax				1
+		grapple_detachVerticalBoost			100
+		grapple_detachVerticalMaxSpeed		10
+		grapple_detachSpeedLoss				100
+		grapple_detachSpeedLossMin			830
+		grapple_detachLowSpeedThreshold		800
+		grapple_detachLowSpeedTime			3.6
+		grapple_detachLowSpeedGroundTime	3.6
+		grapple_impactVerticalBoost			0
+		grapple_impactVerticalMaxSpeed		10
+		grapple_power_regen_delay			3
+		grapple_power_regen_rate			10
+		grapple_airSpeedMax					10
+		grapple_airAccel					10
+	}
+}
+

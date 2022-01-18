@@ -1,24 +1,34 @@
 {
-    "Name": "Jorb.TGrapple",
-    "Description": "Titan Grapple",
-    "Version": "1.0.0",
-    "RequiredOnClient": true,
-    "LoadPriority": 1,
-    "ConVars": [],
-    "Scripts": [
-        
-        {
-          "Path": "bcprecache.gnut",
-          "RunOn": "( CLIENT || SERVER ) && MP",
-          "ClientCallback": {
-            "After": "jorb_weapons2_precache"
-          },
-          "ServerCallback": {
-            "After": "jorb_weapons2_precache"
-          }
-        }
-    ],
-    "Localisation": [
-        
-    ]
+  "Name": "Jorb.TGrapple",
+  "Description": "Titan Grapple",
+  "Version": "1.0.0",
+  "RequiredOnClient": true,
+  "LoadPriority": 1,
+  "ConVars": [],
+  "Scripts": [
+
+    {
+      "Path": "bcprecache.gnut",
+      "RunOn": "( CLIENT || SERVER ) && MP",
+      "ClientCallback": {
+        "After": "jorb_weapons2_precache"
+      },
+      "ServerCallback": {
+        "After": "jorb_weapons2_precache"
+      }
+    }/*,
+
+    {
+      "Path": "weapons/mp_titanability_grapple.nut",
+      "RunOn": "( CLIENT || SERVER ) && MP"
+
+
+    }
+
+  */
+
+  ],
+  "Localisation": [
+
+  ]
 }
