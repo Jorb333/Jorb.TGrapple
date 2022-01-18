@@ -1,0 +1,11 @@
+untyped
+global function jorb_weapons2_precache
+
+void function jorb_weapons2_precache()
+{
+    PrecacheWeapon( "mp_titanability_grapple" )
+    printt("Titan Grapple")
+    
+    
+
+}
